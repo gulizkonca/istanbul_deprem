@@ -1,15 +1,8 @@
-# 🌍 İstanbul Deprem Görselleştirici
+# 🌍 İstanbul Deprem – Gerçek Zamanlı Veri Görselleştirici
 
-Bu Python projesi, Kandilli Rasathanesi'nin sitesinden gerçek zamanlı deprem verilerini çekerek son 6 saatteki depremlerin büyüklük-zaman grafiğini otomatik olarak oluşturur.
+Bu Python projesi, Kandilli Rasathanesi'nin verilerini kullanarak İstanbul çevresindeki depremleri **gerçek zamanlı grafikle** gösterir.
 
-## 📌 Özellikler
-- Kandilli sayfasından web scraping ile veri çekme
-- Sürekli güncellenen matplotlib grafiği
-- Sadece son 6 saate ait veriler filtrelenir
-- Toplum bilincini artırmak için açık kaynak
-
-## 🚀 Kullanım
-
+## Kullanım:
 ```bash
 pip install -r requirements.txt
 python istanbul_deprem.py
